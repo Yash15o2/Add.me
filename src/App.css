@@ -1,8 +1,19 @@
+.App {
+	height: 100vh;
+}
+
 .App-header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px 40px;
+}
+
+#light {
+	background-color: #f5fafa;
+}
+#dark {
+	background-color: #17224d;
 }
 
 .logo {
@@ -15,6 +26,7 @@
 	width: 24px;
 	margin-top: 2px;
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .App-section {
@@ -34,6 +46,10 @@
 	font-size: 16rem;
 	color: #17224d;
 	padding: 0 15vw;
+}
+
+#dark .number {
+	color: #f5fafa;
 }
 
 .plus-img {
@@ -61,6 +77,7 @@
 	font-family: 'Poppins';
 	cursor: pointer;
 	color: #f5fafa;
+	outline: none;
 	-webkit-tap-highlight-color: transparent;
 }
 
